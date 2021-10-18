@@ -1,0 +1,33 @@
+body{
+    display: grid;
+    grid-template-rows: 100px 100px auto 50px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "main"
+    "footer";
+}
+
+header{
+    grid-area: header;
+}
+
+nav{
+    grid-area: nav;
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+}
+
+
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+}
