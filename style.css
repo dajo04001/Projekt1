@@ -1,4 +1,6 @@
 body{
+    background-color: blueviolet;
+    color: black;
     display: grid;
     grid-template-rows: 100px 100px auto 50px;
     grid-template-columns: 1fr;
@@ -6,7 +8,7 @@ body{
     "header"
     "nav"
     "main"
-    "footer";
+    "footer"
 }
 
 header{
@@ -18,9 +20,18 @@ nav{
 }
 
 nav ul{
-    display: grid;
+    display: grid; 
     grid-template-columns: 1fr 1fr 1fr;
     list-style-type: none;
+    gap: 20px;
+}
+
+li {
+    background-color: purple;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    text-decoration: none
 }
 
 
@@ -30,4 +41,14 @@ main{
 
 footer{
     grid-area: footer;
+
+}
+
+footer img{
+    width: 40%;
+    
+}
+
+.yinyang {
+    width: 20%;
 }
