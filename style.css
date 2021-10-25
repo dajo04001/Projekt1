@@ -1,5 +1,5 @@
 body{
-    background-color: blueviolet;
+    background-color: purple;
     color: black;
     display: grid;
     grid-template-rows: 100px 100px auto 50px;
@@ -27,7 +27,7 @@ nav ul{
 }
 
 li {
-    background-color: purple;
+    background-color: blueviolet;
     width: 50%;
     margin: auto;
     text-align: center;
